@@ -1,5 +1,5 @@
 <div align='center'>
-  <h1>My LOGO<h1/>
+  <h1>My LOGO<h1 border-bottom='none'/>
   <img src='logo.png.png' width='100px'/>
 </div>
 
