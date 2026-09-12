@@ -2,3 +2,4 @@
   <img src='logo.png.png' width='100px'/>
 </div>
 <h3>My Skill</h3>
+<img src'https://skillicons.dev/icons?i=html,css,js,py,figma' alt'skill'/>
