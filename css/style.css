@@ -53,7 +53,7 @@
   display: flex;
   justify-content: center;
   right: -100%;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .navbar-container-header .ul-box-container {
