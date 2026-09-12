@@ -5,5 +5,7 @@
 
 <div margin-left='-100px'>
   <h2>My Skills<h2/>
+    <br/>
+    <br/>
   <img src='https://skillicons.dev/icons?i=html,css,js,py,figma'/>
 </div>
