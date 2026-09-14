@@ -1,0 +1,226 @@
+/* section 1 */
+.main-container-page-2 .section-1-box img {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.main-container-page-2 .section-1-box .title-section-1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 5rem;
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .main-container-page-2 .section-1-box .title-section-1 {
+    font-size: 1.8rem;
+    top: 20%;
+    left: 35%;
+  }
+  .main-container-page-2 .section-1-box img {
+    margin-top: 5rem;
+  }
+}
+
+/* section 2 */
+.section-2-box {
+  width: 50%;
+  margin: 7rem auto;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  line-height: 1.5rem;
+}
+
+.title-section-2 {
+  color: #292f36;
+  font-size: 1.3rem;
+}
+
+.section-2-box .title-section-2 ~ p {
+  font-size: 1.1rem;
+  color: #4d5053;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-2-box .title-section-2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 642px) {
+  .section-2-box .title-section-2 ~ p {
+    font-size: 0.9rem;
+  }
+}
+
+/* section 3 */
+.parent-section-3-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.parent-section-3-box-container .box-section-3 .title-box-3 {
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+}
+
+.parent-section-3-box-container .box-section-3 .title-box-3 + p {
+  padding-bottom: 1.8rem;
+}
+
+.parent-section-3-box-container .box-section-3 > a {
+  background: #292f36;
+  color: white;
+  height: 60px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+}
+
+.img-box-section-3 {
+  width: 100%;
+}
+
+@media screen and (max-width: 1066px) {
+  .parent-section-3-box-container {
+    margin-left: 3rem;
+  }
+  .img-box-section-3 {
+    width: 90%;
+  }
+  .parent-section-3-box-container .box-section-3 .title-box-3 {
+    font-size: 0.6rem;
+    padding-bottom: 0.7rem;
+  }
+  .parent-section-3-box-container .box-section-3 .title-box-3 + p {
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .parent-section-3-box-container .box-section-3 > a {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 0.5rem;
+  }
+}
+
+/* section 4 */
+.parent-section-3-box-container {
+  margin: 2rem;
+}
+
+#section-fiv-container {
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+  #section-fiv-container {
+    margin-top: 5rem;
+  }
+}
+
+/* section 6 */
+.parent-input-box {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  padding-top: 0.5rem;
+}
+
+section {
+  position: relative;
+}
+
+.label-section{
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.label-message-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.label-message-parent section {
+  margin-top: 5rem;
+}
+
+.label-message-parent section > input {
+  width: 757px;
+}
+
+.title-input {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.input-box:focus + label {
+  transform: translateY(-100%);
+  background: linear-gradient(
+    130deg,
+    rgb(64, 64, 215),
+    rgb(15, 201, 252),
+    rgb(255, 0, 255)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-box-3::after {
+  content: "";
+  width: 50%;
+  height: 1px;
+  position: absolute;
+  background: linear-gradient(125deg, rgb(0, 106, 255), rgb(105, 239, 201));
+  bottom: 0;
+  opacity: 0;
+  left: 26%;
+  transition: all 1s;
+}
+
+.section-box-3:focus-within::after {
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+
+#footer-box-page-2{
+  margin-top: 25rem;
+}
+
+@media screen and (max-width: 769px) {
+  .parent-input-box {
+    gap: 2rem;
+  }
+  input {
+    width: 210px;
+  }
+  .label-message-parent section > input {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  input {
+    width: 130px;
+  }
+  .label-message-parent section > input {
+    width: 300px;
+  }
+}
