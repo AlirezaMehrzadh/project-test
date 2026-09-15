@@ -145,7 +145,7 @@ section {
   position: relative;
 }
 
-.label-section{
+.label-section {
   position: absolute;
   left: 0;
   transition: all 0.3s;
@@ -168,9 +168,11 @@ section {
 .title-input {
   text-align: center;
   padding-bottom: 3rem;
+  margin-top: 7rem;
 }
 
-.input-box:focus + label {
+.input-box:focus + label,
+.input-box:not(:placeholder-shown) + label {
   transform: translateY(-100%);
   background: linear-gradient(
     130deg,
@@ -194,14 +196,28 @@ section {
   transition: all 1s;
 }
 
-.section-box-3:focus-within::after {
+.section-box-3:focus-within::after ,.section-box-3:has(input:valid)::after{
   opacity: 1;
   width: 100%;
   left: 0;
 }
 
-#footer-box-page-2{
-  margin-top: 25rem;
+#footer-box-page-2 {
+  margin-top: 20rem;
+}
+.parent-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+.parent-item .item-input{
+  background: #292F36;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+.parent-item .item-input > i{
+  color: #CDA274;
 }
 
 @media screen and (max-width: 769px) {
@@ -223,4 +239,7 @@ section {
   .label-message-parent section > input {
     width: 300px;
   }
+  #footer-box-page-2 {
+  margin-top: 14rem;
+}
 }

@@ -1,0 +1,176 @@
+/* main */
+.parent-section-1 > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-top: 6rem;
+  object-fit: contain;
+}
+
+/* section 2 */
+.parent-section-2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 8rem;
+}
+
+.parent-section-2 .title-section-2 {
+  color: #292f36;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.parent-section-2 .title-section-2 ~ a {
+  color: black;
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.parent-section-2 #section-2-paret-2 > a {
+  color: #c76904;
+}
+
+.parent-section-2 #section-2-paret-2 > p {
+  color: #c76904;
+}
+
+.parent-section-2 #section-2-paret-2 > h3 {
+  color: #c76904;
+}
+
+@media screen and (max-width: 785px) {
+  .parent-section-1 > img {
+    object-fit: contain;
+    margin-top: -2rem;
+  }
+  .parent-section-2 {
+    gap: 1.5rem;
+    margin-right: 0.2rem;
+    margin-top: -5rem;
+  }
+  .parent-section-2 .title-section-2 {
+    padding-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .parent-section-2 .title-section-2 ~ a {
+    font-size: 0.4rem;
+    padding-top: 0.5em;
+  }
+  .parent-section-2 .title-section-2 + .description-section-2 {
+    font-size: 0.4rem;
+  }
+  #part-2-section-2 {
+    margin-top: 3rem;
+  }
+}
+
+/* section 3 */
+.container-section-3 {
+  text-align: center;
+  padding-top: 16rem;
+}
+
+.container-section-3 .main-title-section-3 {
+  font-size: 2rem;
+  color: #363b41;
+  padding-bottom: 1rem;
+}
+
+.container-section-3 .main-title-section-3 + .description-section-3 {
+  color: #4d5053;
+}
+
+@media screen and (max-width: 785px) {
+  .container-section-3 {
+    padding-top: 7rem;
+  }
+}
+/* section 4 */
+.parent-boox-section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 5rem;
+  padding: 4rem 0rem;
+}
+
+.parent-boox-section-4 .title-number {
+  color: #c76904;
+  text-align: right;
+  font-size: 4rem;
+  margin-bottom: 8rem;
+}
+
+.parent-boox-section-4 .title-section-4 {
+  color: #292f36;
+  font-size: 1.9rem;
+  padding-bottom: 0.6rem;
+}
+
+.parent-boox-section-4 .title-section-4 + .description-section-4 {
+  color: #4d5053;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+#number-title-1 {
+  text-align: left;
+}
+
+@media screen and (max-width: 1121px) {
+  .parent-boox-section-4 {
+    gap: 1rem;
+    margin-right: 3rem;
+    padding: 0rem 0;
+  }
+  .parent-boox-section-4 .left-section > img {
+    width: 250px;
+  }
+  .parent-boox-section-4 .title-section-4 {
+    font-size: 0.9rem;
+  }
+  .parent-boox-section-4 .title-section-4 + .description-section-4 {
+    font-size: 0.7rem;
+  }
+  .parent-boox-section-4 .title-number {
+    margin-bottom: 0;
+  }
+  .parent-boox-section-4 .title-number {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .parent-boox-section-4 {
+    margin-right: 2rem;
+  }
+  #part-container-section-4 {
+    justify-content: center;
+    display: flex;
+  }
+  .parent-boox-section-4 .left-section > img {
+    width: 120px;
+  }
+  .parent-boox-section-4 .title-section-4 {
+    font-size: 0.6rem;
+  }
+  .parent-boox-section-4 .title-section-4 + .description-section-4 {
+    font-size: 0.5rem;
+    line-height: 0.4rem;
+  }
+  .parent-boox-section-4 .title-number {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .parent-boox-section-4 .title-number {
+    font-size: 2rem;
+  }
+}
+/* section 5 */
+#bedroom-section-end{
+    margin-block: 15rem;
+}
